@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TechConnect</string>
+    <string name="get_solution">Ask your Question for Expert and get your solution</string>
+    <string name="about_me">Hello! I’m <b><i>Priyanshu Raj</i> </b>, I have experience in Java, C++, MySql, wxWidgets, Python, Kotlin and App development. I am a passionate developer...</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center"
+    android:background="@drawable/background_shape"
+    tools:context=".AboutActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgUser"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/my_image" />
+
+    <TextView
+        android:id="@+id/about_description"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_me"
+        android:textSize="16sp"
+        android:fontFamily="serif-monospace"
+        android:textAlignment="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Social Media Icons -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="center">
+
+        <!-- GitHub Icon -->
+        <ImageView
+            android:id="@+id/github_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_github"
+            android:scaleType="centerCrop"
+            android:contentDescription="GitHub Profile"
+            android:layout_marginEnd="16dp" />
+
+        <!-- LinkedIn Icon -->
+        <ImageView
+            android:id="@+id/linkedin_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_linkedin"
+            android:scaleType="centerCrop"
+            android:contentDescription="LinkedIn Profile" />
+    </LinearLayout>
+
+</LinearLayout>
